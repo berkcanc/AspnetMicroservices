@@ -17,5 +17,5 @@ namespace AspnetRunBasics
                     webBuilder.UseStartup<Startup>();
                 });
 
-        }
+    }
 }
