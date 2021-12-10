@@ -1,6 +1,5 @@
 using Catalog.API.Data;
 using Catalog.API.Respositories;
-using Common.Logging;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
