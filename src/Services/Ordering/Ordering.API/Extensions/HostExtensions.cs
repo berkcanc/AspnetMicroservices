@@ -32,9 +32,6 @@ namespace Ordering.API.Extensions
                                     logger.LogError($"Retry {retryCount} of {context.PolicyKey} at {context.OperationKey}, due to: {exception}.");
                                 });
 
-                    //if the sql server container is not created on run docker compose this
-                    //migration can't fail for network related exception. The retry options for DbContext only 
-                    //apply to transient exceptions                    
                     retry.Execute(() => InvokeSeeder(seeder, context, services));
 
                     logger.LogInformation("Migrated database associated with context {DbContextName}", typeof(TContext).Name);
