@@ -45,7 +45,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{0690
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetRunBasics", "WebApps\AspnetRunBasics\AspnetRunBasics.csproj", "{9A6BFE93-7F0A-4EB7-B2CA-5E893A3B68E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logging", "BuildingBlocks\Common.Logging\Common.Logging.csproj", "{5DB4EF7A-3C0B-4424-848F-5298D8FFF477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Logging", "BuildingBlocks\Common.Logging\Common.Logging.csproj", "{5DB4EF7A-3C0B-4424-848F-5298D8FFF477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStatus", "WebApps\WebStatus\WebStatus.csproj", "{DBBE88A4-E56B-4149-9485-243722279419}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +111,10 @@ Global
 		{5DB4EF7A-3C0B-4424-848F-5298D8FFF477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB4EF7A-3C0B-4424-848F-5298D8FFF477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB4EF7A-3C0B-4424-848F-5298D8FFF477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBE88A4-E56B-4149-9485-243722279419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBE88A4-E56B-4149-9485-243722279419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBE88A4-E56B-4149-9485-243722279419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBE88A4-E56B-4149-9485-243722279419}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +137,7 @@ Global
 		{BA76E577-7BEC-47ED-8BF5-2745014EA83E} = {9A5E6D84-35CA-4E33-9B79-B4562AE6EBF8}
 		{9A6BFE93-7F0A-4EB7-B2CA-5E893A3B68E8} = {069065F1-8D07-47F9-9458-2CB95F0363ED}
 		{5DB4EF7A-3C0B-4424-848F-5298D8FFF477} = {35B2AC19-073D-4552-BE95-01EC9922F671}
+		{DBBE88A4-E56B-4149-9485-243722279419} = {069065F1-8D07-47F9-9458-2CB95F0363ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C99D0BC8-C1D4-4C4A-BF2F-AEC357A3748E}
